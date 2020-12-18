@@ -1,4 +1,4 @@
-#sql-to-email
+# sql-to-email
 
 Script for sending result of SQL queries as CSV file to email. 
 
