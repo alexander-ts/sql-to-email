@@ -1,0 +1,27 @@
+{
+    "smtp":
+    {
+        "smtpHost": "smtp.example.com",
+        "smtpPort": "465",
+        "email": "sender@email.com",
+        "password": "password"      
+    },
+    "dbConnections": [
+        {
+            "dsn": "DSN_NAME",
+            "login": "login",
+            "password": "password",
+            "reports": 
+            [
+                {
+                    "name": "Report: current date and time.",
+                    "description": "You can use this report as an example. It returns current date and time from Oracle database.",
+                    "sql": "SELECT SYSDATE FROM DUAL",
+                    "path": "/path/to/report/",
+                    "filename": "report.csv",
+                    "recipient": "recipent@email.com"
+                }
+            ]
+        }
+    ]
+}
