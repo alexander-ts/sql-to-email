@@ -16,9 +16,8 @@
                 {
                     "name": "Report: current date and time.",
                     "description": "You can use this report as an example. It returns current date and time from Oracle database.",
-                    "sql": "SELECT SYSDATE FROM DUAL",
                     "path": "/path/to/report/",
-                    "filename": "report.csv",
+                    "isHeadersIncluded": false,
                     "recipient": "recipent@email.com"
                 }
             ]
